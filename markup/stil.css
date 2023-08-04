@@ -1,36 +1,41 @@
-* {
-    font-family: Arial, sans-serif;
-}
-
 h1 {
     color: blue;
-    text-align: center;
 }
 
-ul {
-    list-style-type:none ;
-    margin: 0;
-    padding: 2%;
+ul li.active {
+    color: green;
 }
 
-li{
-    background-color: yellow;
-    }
-
-li#special {
-    font-weight: bold;
-}
-
-h2+p {
-    color: palegoldenrod;
-}
-
-h2>b {
+ul li.special {
     color: red;
 }
 
-ul+p {
-    font-style:unset ;
+h2 {
+    color: purple;
+}
+
+p b {
+    color: orange;
+}
+
+#content {
+    background-color: yellow;
+}
+
+h3 {
+    color: pink;
+}
+
+div span {
+    color: brown;
+}
+
+.example {
+    color: gray;
+}
+
+#footer p {
+    color: black;
 }
 
 a[href] {
@@ -38,11 +43,8 @@ a[href] {
     text-decoration-color: fuchsia;
 }
 
-a:hover {
-    color: orange;
-}
-
 h2::before {
     content: "Тема:";
     color: green;
 }
+
