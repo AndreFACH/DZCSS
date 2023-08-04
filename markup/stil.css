@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+ul {
+    list-style-type:none ;
+    margin: 0;
+    padding: 2%;
+}
+
+li{
+    background-color: yellow;
+    }
+
+li#special {
+    font-weight: bold;
+}
+
+h2+p {
+    color: palegoldenrod;
+}
+
+h2>b {
+    color: red;
+}
+
+ul+p {
+    font-style:unset ;
+}
+
+a[href] {
+    text-decoration-line: underline;
+    text-decoration-color: fuchsia;
+}
+
+a:hover {
+    color: orange;
+}
+
+h2::before {
+    content: "Тема:";
+    color: green;
+}
